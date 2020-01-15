@@ -1,17 +1,19 @@
+// @flow
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+// Styles
+import styles from './Home.module.css';
+
+// Home function
+const Home = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className={styles.App}>
+      <header className={styles.App__header}>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
-          className="App-link"
+          className={styles.App__link}
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
@@ -21,6 +23,6 @@ function App() {
       </header>
     </div>
   );
-}
+};
 
-export default App;
+export default Home;

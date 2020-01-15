@@ -21,6 +21,7 @@ React is a JavaScript library for building user interfaces.
 
 ## Code lint & test
 
+- [facebook/flow](https://github.com/facebook/flow) `v0.116.0`
 - [@testing-library/jest-dom](https://testing-library.com/docs/ecosystem-jest-dom) `v4.2.4`
 
 ## Template structure

@@ -1,0 +1,6 @@
+# Files
+*.md
+
+# Folder
+node_modules/
+build/

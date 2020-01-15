@@ -1,0 +1,18 @@
+# Files
+.dockerignore
+.editorconfig
+.eslintignore
+.eslintrc
+.gitignore
+.prettierignore
+.prettierrc
+Dockerfile
+LICENSE
+*.md
+*.log
+
+# Folders
+.github/
+node_modules/
+build/
+tests/
